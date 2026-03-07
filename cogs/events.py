@@ -11,9 +11,13 @@ class eventos(commands.Cog):
         minha_embed = discord.Embed(color=discord.Color.blurple())
         minha_embed.title = (f"🎀 {membro.display_name} chegou!")
         minha_embed.description = (
-    f"Oi {membro.mention} — seja bem-vindo(a) ao **Misa Community**!\n\n"
-    "Leia as regrinhas em #regras, pega seus cargos em #cargos e fica à vontade por aqui.\n\n"
-    "Esperamos que esse cantinho seja divertido pra você ♡")
+    f"Oiie {membro.mention} — Seja bem-vindo(a) ao **Misa Community**!\n\n"
+    "Espero que esteja tudo bem por aí! Eu sou Misa, a inteligência que ajuda a cuidar deste cantinho. ݁ ≽(◉˕ ◉ ≼マ\n\n"
+    "Como ainda estou sendo desenvolvida, meus moderadores estão sempre me dando upgrades.\n\n"
+    "Por favor, não esqueça de ler as regras para que possamos manter uma comunidade divertida e respeitosa. Aproveite para selecionar o seu cargo e fique à vontade por aqui! ݁ ˎˊ˗\n\n"
+    "Esperamos que esse cantinho seja acolhedor para você, nossos moderadores estão abertos para reportes e sugestões. ♡"
+    )
+    
         
         imagem = discord.File("hello.gif", "hello.gif")
         minha_embed.set_image(url="attachment://hello.gif")
