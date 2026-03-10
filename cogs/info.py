@@ -12,26 +12,29 @@ class Info(commands.Cog):
         await ctx.reply(f"🏓 Pong! **{latencia}ms**")
         
     @commands.command()
-    async def avatar(self, ctx:commands.Context, *,membro:discord.Member=None):
+    async def avatar(self, ctx:commands.Context, membro:discord.Member=None):
+        print(f"argumento recebido: {membro}")
+        print(f"membros no cache: {len(ctx.guild.members)}")
+        
         if membro is None:
-            print(f"membro recebido: {membro}")
             membro = ctx.author
-            embed = discord.Embed(title=f"Avatar de {membro.display_name}")
-            embed.set_image(url=membro.display_avatar.url)
-            await ctx.reply(embed=embed)
+            
+        embed = discord.Embed(title=f"Avatar de {membro.display_name}")
+        embed.set_image(url=membro.display_avatar.url)
+        await ctx.reply(embed=embed)
             
     @commands.command()
-    async def userinfo(self, ctx:commands.Context, *,membro:discord.Member=None):
+    async def userinfo(self, ctx:commands.Context,membro:discord.Member=None):
         if membro is None:
             membro = ctx.author
-            embed = discord.Embed(title=f"Informações de {membro.display_name}", color=discord.Color.blurple())
-            embed.set_thumbnail(url=membro.display_avatar.url)
-            embed.add_field(name="👤 Nome", value=membro.name, inline=True)
-            embed.add_field(name="🪪 ID", value=membro.id, inline=True)
-            embed.add_field(name="📅 Conta criada em", value=membro.created_at.strftime("%d/%m/%Y"), inline=True)
-            embed.add_field(name="📥 Entrou no servidor em", value=membro.joined_at.strftime("%d/%m/%Y"), inline=True)
-            embed.add_field(name="🎭 Cargo mais alto", value=membro.top_role.mention, inline=True)
-            await ctx.reply(embed=embed)
+        embed = discord.Embed(title=f"Informações de {membro.display_name}", color=discord.Color.blurple())
+        embed.set_thumbnail(url=membro.display_avatar.url)
+        embed.add_field(name="👤 Nome", value=membro.name, inline=True)
+        embed.add_field(name="🪪 ID", value=membro.id, inline=True)
+        embed.add_field(name="📅 Conta criada em", value=membro.created_at.strftime("%d/%m/%Y"), inline=True)
+        embed.add_field(name="📥 Entrou no servidor em", value=membro.joined_at.strftime("%d/%m/%Y"), inline=True)
+        embed.add_field(name="🎭 Cargo mais alto", value=membro.top_role.mention, inline=True)
+        await ctx.reply(embed=embed)
     
     @commands.command()
     async def misainfo(self, ctx:commands.Context):
