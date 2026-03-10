@@ -17,7 +17,10 @@ class MisaBot(commands.Bot):
     async def setup_hook(self):
         await carregar_cogs(self)
         await self.tree.sync()
-        print("Cogs carregadas!")   
+        print("Cogs carregadas!")
+        
+        for guild in self.guilds:
+            await guild.chunk()   
 
     async def on_ready(self):
         print(f"Misa está pronta! Logada como {self.user}")
