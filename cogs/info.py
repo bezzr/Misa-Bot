@@ -49,6 +49,12 @@ class Info(commands.Cog):
         embed.set_thumbnail(url=self.bot.user.display_avatar.url)
         await ctx.reply(embed=embed)
         
+    @commands.command()
+    async def convite(self, ctx:commands.Context):
+        link = await ctx.channel.create_invite(max_age=0, max_uses=0)
+        await ctx.reply(f"🔗 {link}")
+            
+        
         
 async def setup(bot):
     await bot.add_cog(Info(bot))           
