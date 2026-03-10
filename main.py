@@ -1,8 +1,10 @@
 import discord 
 from discord.ext import commands
 import os
+from dotenv import load_dotenv
 
-TOKEN = "TOKEN DO BOT"
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default() #permissoes basicas do discord
 intents.members = True
