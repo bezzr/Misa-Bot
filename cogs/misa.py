@@ -26,11 +26,11 @@ class Misa(commands.Cog):
     ],
 
     "cansada": [
-        "Oi... a Misa tá aqui... só um pouquinho cansada hoje... ☕",
-        "Presente... funcionando em modo economia de energia... 💤",
-        "Cheguei... mas meu travesseiro ainda tá me chamando... 😮‍💨",
-        "Hoje a Misa tá operando em 50% da capacidade... 🔋",
-        "Tô aqui... devagar... mas funcionando! 🐌",
+        "Misa na área... mas se alguém me pedir algo complexo, eu vou fingir que meu Wi-Fi caiu.",
+        "Oi... Misa presente, mas operando via satélite e com sinal ruim. Se eu sumir, é porque minha bateria social (e digital) entrou em colapso.",
+        "Oi... a Misa tá aqui... mas se eu fosse vocês, não esperaria muita agilidade hoje. Alguém injeta um código de cafeína em mim, por favor?",
+        "Presente! Mas hoje estou funcionando na base do ódio e da economia de energia. Me chamem só se for algo muito urgente ou uma fofoca muito boa.",
+        "Tô aqui... devagar... mas funcionando!",
     ],
 
     "estressada": [
