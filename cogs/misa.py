@@ -45,7 +45,7 @@ class Misa(commands.Cog):
         "Hmm... isso parece interessante... 👀",
         "Oooh? Conta mais, fiquei curiosa agora... 🔍",
         "Misa observando tudo aqui no servidor... 💭",
-        "Curioso... muito curioso mesmo... 🤔",
+        "Solta o print, solta a fofoca, Misa tá pronta!",
         "Algo me diz que essa história vai ser boa... 🐾",
         ]
     }
