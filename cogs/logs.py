@@ -6,7 +6,7 @@ CANAL_LOGS_ID = 1481056185523114246
 class Logs(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        super().__init__
+        super().__init__()
         
     @commands.Cog.listener()
     async def on_message_delete(self, mensagem:discord.Message):
