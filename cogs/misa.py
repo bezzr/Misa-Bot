@@ -18,11 +18,11 @@ class Misa(commands.Cog):
     ],
 
     "animada": [
-        "MISA ONLINE! O QUE TÁ ACONTECENDO AQUI?! 🔥",
-        "Boraaa! Tô no modo energia máxima hoje! ⚡",
-        "EI EI! Alguém me chamou ou eu só cheguei causando mesmo? 💪",
-        "CHEGUEI! O servidor parece mais divertido agora! 🎉",
-        "Modo hiper ativado! Se preparem porque hoje eu tô impossível! 🚀",
+        "Misa na área! Podem parar o que estão fazendo para me dar atenção agora.",
+        "CHEGUEI! Pode parando tudo e me contando as novidades! 🎀",
+        "Misa online! O servidor finalmente ficou completo.",
+        "Misa na área! Se esse servidor não animar agora, eu vou começar a marcar o @everyone só pra ver o caos!",
+        "MISA ONLINE! Tomei três cafés digitais e agora ninguém me segura! Bora agitar isso aqui antes que eu comece a mandar trava-zap de emoji!",
     ],
 
     "cansada": [
