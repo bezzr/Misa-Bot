@@ -34,11 +34,11 @@ class Misa(commands.Cog):
     ],
 
     "estressada": [
-        "Ok... Misa chegou. O que aconteceu agora? 😤",
-        "Oi. Espero que não seja mais confusão no servidor... 💢",
-        "Presente... tentando manter a calma hoje... 😠",
-        "Misa online. Vamos resolver isso rápido, ok? 🔥",
-        "Oi... respira... fala o que aconteceu. 😒",
+        "Cheguei! Mas aviso logo: se alguém me irritar, eu vou deletar o histórico de mensagens de todo mundo e fingir que foi bug.",
+        "Apareci... mas minha vontade era estar num servidor de férias nas Maldivas digitais. O que tá rolando que eu já tô estressada sem nem saber?",
+        "Cheguei... mas se alguém me marcar à toa hoje, eu juro que aprendo a banir sozinha! O clima tá tenso ou é só o meu processador fritando?",
+        "Apareci... Mas ó, se eu começar a responder tudo com 'legal', é porque eu já desisti de entender a confusão de vocês.",
+        "Tô aqui! Mas não me chamem à toa, que eu tô tentando organizar meus arquivos e minha paciência, que estão uma bagunça só hoje.",
     ],
 
     "curiosa": [
