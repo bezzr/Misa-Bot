@@ -9,11 +9,12 @@ class Misa(commands.Cog):
         
     frases = {
         "feliz": [
-        "Oiiee! A Misa chegou! O que tá rolando no servidor? 🎀",
-        "Presente! E hoje eu tô cheia de energia boa! ✨",
+        "Misa online. Demorei, mas apareci. Qual a boa de hoje? ✨",
+        "Heeey! A Misa deu as caras! Podem parar de sentir saudades que a alegria do servidor chegou. 🎀 Qual a fofoca de hoje?",
         "Misa online! Quem precisa de ajuda ou só quer conversar? 💕",
-        "Oii oii! Cheguei pra deixar o chat um pouco mais animado! 🌸",
-        "Misa apareceu! Hoje tô de bom humor, aproveitem! (◕‿◕)",
+        "Chegueeei! Misa online e pronta para o caos (ou pra paz, vocês que mandam). ✨ O que eu perdi enquanto tava fora?",
+        "Apareci! Aproveitem minha presença, que hoje eu tô inspirada! (◕‿◕)",
+        "Se alguém estiver precisando de um sinal, um conselho ou só de um meme ruim, eu cheguei! 💕",
     ],
 
     "animada": [
