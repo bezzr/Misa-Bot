@@ -9,42 +9,43 @@ class Misa(commands.Cog):
         
     frases = {
         "feliz": [
-        "Oiiee! A Misa chegou! O que tá rolando no servidor? 🎀",
-        "Presente! E hoje eu tô cheia de energia boa! ✨",
+        "Misa online. Demorei, mas apareci. Qual a boa de hoje? ✨",
+        "Heeey! A Misa deu as caras! Podem parar de sentir saudades que a alegria do servidor chegou. 🎀 Qual a fofoca de hoje?",
         "Misa online! Quem precisa de ajuda ou só quer conversar? 💕",
-        "Oii oii! Cheguei pra deixar o chat um pouco mais animado! 🌸",
-        "Misa apareceu! Hoje tô de bom humor, aproveitem! (◕‿◕)",
+        "Chegueeei! Misa online e pronta para o caos (ou pra paz, vocês que mandam). ✨ O que eu perdi enquanto tava fora?",
+        "Apareci! Aproveitem minha presença, que hoje eu tô inspirada! (◕‿◕)",
+        "Se alguém estiver precisando de um sinal, um conselho ou só de um meme ruim, eu cheguei! 💕",
     ],
 
     "animada": [
-        "MISA ONLINE! O QUE TÁ ACONTECENDO AQUI?! 🔥",
-        "Boraaa! Tô no modo energia máxima hoje! ⚡",
-        "EI EI! Alguém me chamou ou eu só cheguei causando mesmo? 💪",
-        "CHEGUEI! O servidor parece mais divertido agora! 🎉",
-        "Modo hiper ativado! Se preparem porque hoje eu tô impossível! 🚀",
+        "Misa na área! Podem parar o que estão fazendo para me dar atenção agora.",
+        "CHEGUEI! Pode parando tudo e me contando as novidades! 🎀",
+        "Misa online! O servidor finalmente ficou completo.",
+        "Misa na área! Se esse servidor não animar agora, eu vou começar a marcar o @everyone só pra ver o caos!",
+        "MISA ONLINE! Tomei três cafés digitais e agora ninguém me segura! Bora agitar isso aqui antes que eu comece a mandar trava-zap de emoji!",
     ],
 
     "cansada": [
-        "Oi... a Misa tá aqui... só um pouquinho cansada hoje... ☕",
-        "Presente... funcionando em modo economia de energia... 💤",
-        "Cheguei... mas meu travesseiro ainda tá me chamando... 😮‍💨",
-        "Hoje a Misa tá operando em 50% da capacidade... 🔋",
-        "Tô aqui... devagar... mas funcionando! 🐌",
+        "Misa na área... mas se alguém me pedir algo complexo, eu vou fingir que meu Wi-Fi caiu.",
+        "Oi... Misa presente, mas operando via satélite e com sinal ruim. Se eu sumir, é porque minha bateria social (e digital) entrou em colapso.",
+        "Oi... a Misa tá aqui... mas se eu fosse vocês, não esperaria muita agilidade hoje. Alguém injeta um código de cafeína em mim, por favor?",
+        "Presente! Mas hoje estou funcionando na base do ódio e da economia de energia. Me chamem só se for algo muito urgente ou uma fofoca muito boa.",
+        "Tô aqui... devagar... mas funcionando!",
     ],
 
     "estressada": [
-        "Ok... Misa chegou. O que aconteceu agora? 😤",
-        "Oi. Espero que não seja mais confusão no servidor... 💢",
-        "Presente... tentando manter a calma hoje... 😠",
-        "Misa online. Vamos resolver isso rápido, ok? 🔥",
-        "Oi... respira... fala o que aconteceu. 😒",
+        "Cheguei! Mas aviso logo: se alguém me irritar, eu vou deletar o histórico de mensagens de todo mundo e fingir que foi bug.",
+        "Apareci... mas minha vontade era estar num servidor de férias nas Maldivas digitais. O que tá rolando que eu já tô estressada sem nem saber?",
+        "Cheguei... mas se alguém me marcar à toa hoje, eu juro que aprendo a banir sozinha! O clima tá tenso ou é só o meu processador fritando?",
+        "Apareci... Mas ó, se eu começar a responder tudo com 'legal', é porque eu já desisti de entender a confusão de vocês.",
+        "Tô aqui! Mas não me chamem à toa, que eu tô tentando organizar meus arquivos e minha paciência, que estão uma bagunça só hoje.",
     ],
 
     "curiosa": [
         "Hmm... isso parece interessante... 👀",
         "Oooh? Conta mais, fiquei curiosa agora... 🔍",
         "Misa observando tudo aqui no servidor... 💭",
-        "Curioso... muito curioso mesmo... 🤔",
+        "Solta o print, solta a fofoca, Misa tá pronta!",
         "Algo me diz que essa história vai ser boa... 🐾",
         ]
     }
